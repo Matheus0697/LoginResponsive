@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Fredoka", sans-serif;
+    color: white;
+}
+
+section{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url("Login/boat4.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+    width: 380px;
+    padding: 50px 40px;
+    border-radius: 12px;
+    box-shadow: 8px 8px 70px #000;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.control input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: #222;
+    border: none;
+    outline: none;
+    margin: 1em 0;
+}
+
+.control input[type = "submit"]{
+    background-color: crimson;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: pointer;
+    opacity: .8;
+    transition: opacity .3s ease;
+}
+
+.control input[type = "submit"]:hover{
+    opacity: 1;
+}
+
+.link{
+    text-align: center;
+}
+
+.link a{
+    text-decoration: none;
+    color: aliceblue;
+    opacity: .8;
+    transition: opacity .4s ease;
+}
+
+.link a:hover{
+    opacity: 1;
+}
+
+.olho{
+    cursor: pointer;
+    left: 310px;
+    top: 17rem;
+    position: absolute;
+    width: 25px;
+    opacity: .6;
+    transition: .4s ease;
+}
+
+.olho:hover{
+    opacity: 1;
+}
